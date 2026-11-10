@@ -18,18 +18,20 @@ The intended prediction target is a game's winning team and its win probability.
 - Report probability quality alongside hard-pick accuracy, including denominators, exclusions, and abstentions.
 - Record source versions, transformations, assumptions about result availability, and reproducibility limits.
 
-This initial README records the project’s evaluation principles and public release boundaries. Supporting research and contribution documentation will be added through the reviewed pull-request workflow.
+See [Research approach](docs/RESEARCH.md) for the evaluation principles and [Publication status](docs/STATUS.md) for the public release boundaries.
 
 ## Availability
 
 There are no installation or execution steps for this release. The private implementation depends on environment-specific tooling and private evaluation files. Portable dependencies, data redistribution, and a distributable example still require review before code can be offered. There is no public demo or deployment associated with this repository.
 
-## Included in this initial commit
+## Repository layout
 
-- This project overview, maturity statement and release boundaries.
-- Research standards, data-source references and feedback guidance.
-
-No installation, dependency configuration or application test commands apply to this documentation-only commit.
+```text
+README.md          Project overview and availability
+CONTRIBUTING.md    Documentation feedback and research proposals
+docs/RESEARCH.md   Evaluation and reporting principles
+docs/STATUS.md     Release contents and publication requirements
+```
 
 ## Data sources and rights
 
@@ -41,6 +43,6 @@ No open-source license grant is included in this initial release. Third-party ma
 
 ## Feedback
 
-Documentation corrections and methodological questions are welcome through GitHub issues. Please describe the relevant assumption or passage and provide a public reference where possible. Do not attach credentials, personal information, private evaluation artifacts or third-party datasets. Link to a publisher’s official source and discuss rights before proposing substantial code or data.
+Documentation corrections and methodological questions are welcome through GitHub issues. Please describe the relevant assumption or passage and provide a public reference where possible. See [Contributing](CONTRIBUTING.md) before proposing additions.
 
 This is an independent research project and is not affiliated with or endorsed by Major League Baseball, Retrosheet, or Chadwick Baseball Bureau.
